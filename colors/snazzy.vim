@@ -200,3 +200,16 @@ if g:SnazzyTransparent == 1
     highlight  SignifyLineDelete   guibg=NONE   ctermbg=NONE
     highlight  SignifyLineChange   guibg=NONE   ctermbg=NONE
 endif
+
+" Set the statusline/tabline palette of color for spacevim
+let g:spacevim_custom_color_palette = [
+  \ ['#282828', '#ff6ac1', 246, 235],
+  \ ['#606580', '#282a36', 239, 246],
+  \ ['#606580', '#192224', 237, 246],
+  \ ['#3a3d4d', 241],
+  \ ['#282828', '#83a598', 235, 109],
+  \ ['#282828', '#fe8019', 235, 208],
+  \ ['#282828', '#8ec07c', 235, 108],
+  \ ['#282828', '#689d6a', 235, 72],
+  \ ['#282828', '#8f3f71', 235, 132],
+  \ ]
